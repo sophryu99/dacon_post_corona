@@ -1,5 +1,5 @@
 # dacon_post_corona
-포스트 코로나 데이터 시각화 경진대회
+포스트 코로나 데이터 시각화 경진대회 (https://dacon.io/competitions/official/235618/overview/)
 
 ** 이 깃헙 페이지에서 직접 파일 수정하지 않기!! **
 
