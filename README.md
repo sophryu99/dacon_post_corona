@@ -8,66 +8,72 @@
 ## 파일당 Column 설명
 
 **adstrd_master :** 
-adstrd_code 행정동코드
-adstrd_nm 행정동명
-brtc_nm 시도명
-signgu_nm 시군구명
+
+1. adstrd_code 행정동코드
+2. adstrd_nm 행정동명
+3. brtc_nm 시도명
+4. signgu_nm 시군구명
 
 
 
 **fpopl : 행정동별 유동인구 데이터**
-base_ymd : 기준년월일
-tmzon_se_code : 24시간대 구분코드
-sexdstn_se_code : 성별구분코드(M남성 F여성)
-agrde_se_code : 5세단위 연령대 구분코드(age_00:0세~9세, age_70 : 70세이상)
-adstrd_code :  행정동코드
-popltn_cascnt : 인구수
+
+1. base_ymd : 기준년월일
+2. tmzon_se_code : 24시간대 구분코드
+3. sexdstn_se_code : 성별구분코드(M남성 F여성)
+4. agrde_se_code : 5세단위 연령대 구분코드(age_00:0세~9세, age_70 : 70세이상)
+5. adstrd_code :  행정동코드
+6. popltn_cascnt : 인구수
 
 
 
 **card : **
-receipt_dttm : 카드회사가 카드사용내역을 접수한 일자 
-adstrd_code : 가맹점 위치 기준 행정동 코드
-adstrd_nm : 가맹점 위치 기준 행정동명
-mrhst_induty_cl_code : 가맹점 업종코드
-mrhst_induty_cl_nm : 가맹점 업종명
-selng_cascnt : 매출발생건수
-salamt : 매출발생금액
+
+1. receipt_dttm : 카드회사가 카드사용내역을 접수한 일자 
+2. adstrd_code : 가맹점 위치 기준 행정동 코드
+3. adstrd_nm : 가맹점 위치 기준 행정동명
+4. mrhst_induty_cl_code : 가맹점 업종코드
+5. mrhst_induty_cl_nm : 가맹점 업종명
+6. selng_cascnt : 매출발생건수
+7. salamt : 매출발생금액
 
 
 
 **delivery** : 
-SERIAL_NUMBER : 순번
-PROCESS_DT : 처리일시
-DLVR_RQESTER_ID : 배달요청업체 ID
-DLVR_RQESTER_STTUS_VALUE : 배달요청상태값 (1:완료, 2:취소, 3:사고, 4:문의)
-DLVR_RCEPT_CMPNY_ID : 배달접수회사 ID
-DLVR_STORE_ID : 배달상점ID
-DLVR_STORE_INDUTY_NM :배달상점 업종이름
-DLVR_STORE_LEGALDONG _CODE : 배달상점 주소 법정동코드
-DLVR_STORE_SIDO : 배달상점 주소 법정동 시도명
-DLVR_STORE_SIGUNGU : 배달상점 주소 법정동 시군구명
-DLVR_STORE_DONG : 배달상점 주소 법정동 읍면동명
-DLVR_STORE_RI : 배달상점 주소 법정동 리명
-DLVR_STORE_ADSTRD_CODE : 배달상점 주소 행정동 코드
-DLVR_STORE_RDNMADR_CODE : 배달상점주소 도로명주소 코드
-DLVR_DSTN_LEGALDONG_CODE : 배달목적지 주소 법정동코드
-DLVR_DSTN_SIDO : 배달목적지 주소 법정동 시도명
-DLVR_DSTN_SIGUNGU : 배달목적지 주소 법정동 시군구명
-DLVR_DSTN_DONG : 배달목적지 주소 법정동 읍면동명
-DLVR_DSTN_RI : 배달목적지 주소 법정동 리명
-DLVR_DSTN_ADSTRD_CODE : 배달목적지 주소 행정동 코드
-DLVR_DSTN_RDNMADR : 배달목적지주소 도로명주소 코드
-DLVR_MAN_ID : 배달기사 ID
-DLVR_AMOUNT : 배달비용
-CALL_RLAY_FEE_AMOUNT : 호출중계수수료금액
-GOODS_AMOUNT : 배달상품금액
-SETLE_KND_VALUE : 결제종류번호 (1:카드, 2:선불, 3:현금)
-SETLE_CARD_CN : 결제카드종류
-DLVR_RCEPT_TIME : 배달접수시간
-DLVR_CARALC_TIME : 배달배차시간
-DLVR_COMPT_TIME : 배달완료시간
-DLVR_CANCL_TIME : 배달취소시간
+
+1. SERIAL_NUMBER : 순번
+2. PROCESS_DT : 처리일시
+3. DLVR_RQESTER_ID : 배달요청업체 ID
+4. DLVR_RQESTER_STTUS_VALUE : 배달요청상태값 (1:완료, 2:취소, 3:사고, 4:문의)
+5. DLVR_RCEPT_CMPNY_ID : 배달접수회사 ID
+6. DLVR_STORE_ID : 배달상점ID
+7. DLVR_STORE_INDUTY_NM :배달상점 업종이름
+8. DLVR_STORE_LEGALDONG _CODE : 배달상점 주소 법정동코드
+9. DLVR_STORE_SIDO : 배달상점 주소 법정동 시도명
+10. DLVR_STORE_SIGUNGU : 배달상점 주소 법정동 시군구명
+11. DLVR_STORE_DONG : 배달상점 주소 법정동 읍면동명
+12. DLVR_STORE_RI : 배달상점 주소 법정동 리명
+13. DLVR_STORE_ADSTRD_CODE : 배달상점 주소 행정동 코드
+14. DLVR_STORE_RDNMADR_CODE : 배달상점주소 도로명주소 코드
+15. DLVR_DSTN_LEGALDONG_CODE : 배달목적지 주소 법정동코드
+16. DLVR_DSTN_SIDO : 배달목적지 주소 법정동 시도명
+17. DLVR_DSTN_SIGUNGU : 배달목적지 주소 법정동 시군구명
+18. DLVR_DSTN_DONG : 배달목적지 주소 법정동 읍면동명
+19. DLVR_DSTN_RI : 배달목적지 주소 법정동 리명
+20. DLVR_DSTN_ADSTRD_CODE : 배달목적지 주소 행정동 코드
+21. DLVR_DSTN_RDNMADR : 배달목적지주소 도로명주소 코드
+22. DLVR_MAN_ID : 배달기사 ID
+23. DLVR_AMOUNT : 배달비용
+24. CALL_RLAY_FEE_AMOUNT : 호출중계수수료금액
+25. GOODS_AMOUNT : 배달상품금액
+26. SETLE_KND_VALUE : 결제종류번호 (1:카드, 2:선불, 3:현금)
+27. SETLE_CARD_CN : 결제카드종류
+28. DLVR_RCEPT_TIME : 배달접수시간
+29. DLVR_CARALC_TIME : 배달배차시간
+30. DLVR_COMPT_TIME : 배달완료시간
+31. DLVR_CANCL_TIME : 배달취소시간
+
+
 
 #### <u>협업 가이드라인</u>
 
